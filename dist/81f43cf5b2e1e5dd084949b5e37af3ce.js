@@ -433,7 +433,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 window.onload = function () {
   const vid = document.querySelector('video');
   const loc = document.querySelector('h1.description');
-  const video = _screensavers2.default[Math.floor(Math.random() * _screensavers2.default.length) - 1];
+  let video = _screensavers2.default[Math.floor(Math.random() * _screensavers2.default.length) - 1];
+  while (video.timeOfDay == '4K') video = _screensavers2.default[Math.floor(Math.random() * _screensavers2.default.length) - 1];
   vid.src = video.url;
   loc.innerText = video.location;
 };
@@ -455,7 +456,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent) {
-  var ws = new WebSocket('ws://localhost:52412/');
+  var ws = new WebSocket('ws://localhost:56507/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
