@@ -1,0 +1,11 @@
+{
+    "name": "Aerial New Tab",
+    "description": "Display Apple Aerial screensavers on new tab page",
+    "version": "1.0.0",
+    "incognito": "split",
+    "chrome_url_overrides": {
+        "newtab": "dist/index.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "manifest_version": 2
+}

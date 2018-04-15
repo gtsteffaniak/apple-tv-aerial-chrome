@@ -1,0 +1,11 @@
+{
+  "name": "AerialNewTab",
+  "version": "1.0.0",
+  "description": "New tab page that displays Apple TV Aerial screensavers",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Naitian Zhou",
+  "devDependencies": {
+    "parcel-bundler": "^1.7.0"
+  }
+}
