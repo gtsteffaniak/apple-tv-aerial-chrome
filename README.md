@@ -1,6 +1,6 @@
 # Apple tv aerial wallpaper
 
-Recently, the official chrome store extension for apple tv aerial became the another victim of google's helicoptor parent tactics. They pulled it for "tracking" users. Either way, here's an open-source clone.
+Recently, the official chrome store extension for apple tv aerial became the another victim of google's helicopter parent tactics. They pulled it for "tracking" users. Either way, here's an open-source clone.
 
 > Aerial new tab page for Chrome
 
