@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Soar</title>
         <style type="text/css" media="screen">
             html, body {
@@ -14,6 +14,9 @@
             video {
                 min-width: 100vw;
                 object-fit: cover;
+                height:100vh;
+                margin-left: 50vw;
+                transform: translate(-50%);
             }
             h1.description {
                 position: fixed;
@@ -27,10 +30,10 @@
                 text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
             }
         </style>
-        <script src="./scripts/index.js" charset="utf-8"></script>
+        <script src="dist/bundle.js" charset="utf-8"></script>
     </head>
     <body>
-        <video src="" autoplay="autoplay"></video>
+        <video src="dist" autoplay="autoplay"></video>
         <h1 class="description">Greenland</h1>
     </body>
 </html>

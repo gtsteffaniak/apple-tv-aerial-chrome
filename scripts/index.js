@@ -8,4 +8,22 @@ window.onload = function () {
         video = screensavers[Math.floor(Math.random() * screensavers.length) - 1];
     vid.src = video.url;
     loc.innerText = video.location;
+
+    vid.addEventListener('focus', function() {
+        vid.play();
+    });
+    vid.addEventListener('blur', function() {
+        vid.pause();
+    });
+    vid.addEventListener('dblclick', function() {
+        location.reload();
+    });
+    vid.addEventListener('click', function() {
+        if (vid.paused){
+            vid.play();
+        }else{
+            vid.pause();
+        }
+    });
 }
+
