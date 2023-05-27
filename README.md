@@ -4,7 +4,7 @@ Recently, the official chrome store extension for apple tv aerial became the ano
 
 > Aerial new tab page for Chrome
 
-![Screenshot](https://i.imgur.com/kj9KkDf.png "Screenshot")
+![Screenshot](https://hackmd.io/_uploads/HkIAV51Ln.png)
 
 ## Installing
 
